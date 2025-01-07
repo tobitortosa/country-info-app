@@ -54,7 +54,9 @@ Before running the project, ensure that you have the following installed:
    - Add the following variables:
 
      ```env
-     API_URL=https://date.nager.at/api/v3
+     PORT=5000
+     DATE_NAGER_API_BASE_URL=https://date.nager.at/api/v3
+     COUNTRIES_NOW_API_BASE_URL=https://countriesnow.space/api/v0.1
      ```
 
 5. Start the backend server:
@@ -100,32 +102,17 @@ To test the application:
 1. Open [http://localhost:3000](http://localhost:3000) in your browser to view the country list.
 2. Click on a country name to view detailed information about the country, including its borders and population chart.
 
-## Code Quality
-
-- **ESLint** and **Prettier** are set up to enforce code formatting and quality. To lint the project, run:
-
-  ```bash
-  npm run lint
-  ```
-
-- To auto-format the code, run:
-
-  ```bash
-  npm run format
-  ```
-
 ## Directory Structure
 
 - `backend/`: Contains the backend code (Node.js, Express.js).
-  - `server.js`: The main backend server file.
-  - `routes/`: API route handlers.
+  - `src/server.js`: The main backend server file.
+  - `src/routes/`: API route handlers.
   - `.env`: Environment variables.
   - `package.json`: Backend dependencies.
   
 - `frontend/`: Contains the frontend code (React.js).
-  - `src/`: The main source folder.
-  - `components/`: React components like `CountryList` and `CountryInfo`.
-  - `App.js`: The main React component.
+  - `src/components/`: React components like `CountryList` and `CountryInfo`.
+  - `src/App.js`: The main React component.
   - `package.json`: Frontend dependencies.
 
 ## Contribution

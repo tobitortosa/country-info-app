@@ -1,0 +1,28 @@
+.country-list {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.country-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.country-list li {
+    margin: 10px 0;
+}
+
+.country-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+
+.country-list a:hover {
+    text-decoration: underline;
+}
+
+.country-list h1 {
+    color: #333;
+}

@@ -1,0 +1,71 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Build directories (para aplicaciones frontend como React)
+build/
+dist/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# MacOS system files
+.DS_Store
+
+# npm package lock files (si no los necesitas en el repositorio)
+package-lock.json
+yarn.lock
+
+# Coverage directory used by testing tools
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Frontend (React) build files
+/public/build/
+
+# .env (para variables sensibles)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs y otros archivos del sistema operativo
+Thumbs.db
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+

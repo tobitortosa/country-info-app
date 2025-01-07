@@ -1,0 +1,32 @@
+.country-info {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.country-info img {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.country-info h3 {
+    color: #333;
+}
+
+.country-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.country-info li {
+    margin: 10px 0;
+}
+
+.country-info a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.country-info a:hover {
+    text-decoration: underline;
+}

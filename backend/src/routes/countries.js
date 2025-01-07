@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get('/', async (req, res) => {
   try {
-    const response = await axios.get('https://date.nager.at/api/v3/AvailableCountries');
+    const response = await axios.get(`${process.env.DATE_NAGER_API_BASE_URL}/AvailableCountries`);
     res.json(response.data);
   } catch (error) {
     console.error(error);
